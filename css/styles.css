@@ -1,0 +1,95 @@
+:root {
+  --custom-green:#2C822E;
+}
+
+#title {
+  height: 100vh;
+  background-color: var(--custom-green);
+}
+
+.bg-green {
+  background-color: var(--custom-green);
+}
+
+a.navbar-brand img {
+  width: 250px;
+  height: auto;
+}
+
+.font-white {
+  color: white;
+}
+
+.font-medium {
+  font-size: 15px;
+}
+
+ul.navbar-nav li a {
+  color: white !important;
+}
+
+#iphone {
+  width: 170px;
+  height: auto;
+}
+
+section#features div.row i {
+  font-size: 80px;
+  color: #ff7a8a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
