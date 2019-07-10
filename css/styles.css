@@ -1,14 +1,19 @@
 :root {
-  --custom-green:#2C822E;
+  --custom-green: #3C7C3C;
+	--custom-light-green: #86B886;
+	--custom-pink: #ff7a8a;
 }
 
 #title {
   height: 100vh;
-  background-color: var(--custom-green);
 }
 
 .bg-green {
   background-color: var(--custom-green);
+}
+
+.bg-l-green {
+	background-color: var(--custom-light-green);
 }
 
 a.navbar-brand img {
@@ -33,30 +38,71 @@ ul.navbar-nav li a {
   height: auto;
 }
 
-section#features div.row i {
+#features  div.container  div.row  div.col-lg-4  i {
   font-size: 80px;
-  color: #ff7a8a;
+  color: var(--custom-pink);
 }
 
+#testimonials img {
+	border-radius: 100%;
+	width: 100px;
+}
 
+.vertical-center {
+	position: relative;
+	transform: translateY(-50%);
+	top: 50%;
+}
 
+.btn-lg i {
+	position: relative;
+	top: 3px;
+}
 
+.btn-md i {
+	position: relative;
+	top: 3px;
+}
 
+#cta div.container a i {
+	font-size: 18px;
+}
 
+.card-header {
+	background-color: var(--custom-light-green);
+	font-weight: bold;
+	color: white;
+	font-size: 25px;
+}
 
+.card-title {
+	color: var(--custom-pink);
+	font-weight: bold;
+}
 
+.card-text p {
+	margin-bottom: 0;
+}
 
+#footer div.container ul {
+	list-style: none;
+	padding-left: 0;
+}
 
+#footer div.container ul li {
+	display: inline;
+}
 
+#footer i {
+	color: var(--custom-light-green);
+	font-size: 25px;
+}
 
-
-
-
-
-
-
-
-
+@media only screen and (max-width: 768px) {
+	#iphone {
+		width: 130px;
+	}
+}
 
 
 
